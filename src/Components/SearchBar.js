@@ -23,14 +23,8 @@ function SearchBar(){
     return(
         <div className='search-bar-Container'>
             <form onSubmit={handleSubmit} onFocus={handelFoucs} onBlur={handleBlur}  className={`search-bar ${isActive ? 'active' : ''}`}>
-            <input
-        type="text"
-        placeholder="Search-Food"
-        value={searchItem}
-        onChange={handleChange}
-      />
-      <button type="submit">Search</button>
-
+            <input type="text"placeholder="Search-Food" value={searchItem} onChange={handleChange} />
+            <button type="submit">Search</button>
             </form>
         </div>
     );
