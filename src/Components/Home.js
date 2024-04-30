@@ -4,8 +4,7 @@ import SearchBar from './SearchBar';
 
 function Home() {
   return (
-    <div className="home-container">
-       
+    <div className="home-container"> 
       <div className="background-image">
       <p id='Info-text'>We Are Providing Seach Greate Food Till 15 Yraers
       </p>
